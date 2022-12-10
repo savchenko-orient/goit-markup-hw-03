@@ -64,7 +64,6 @@ body {
 /* Header */
 .header {
   display: flex;
-  height: 80px;
   align-items: center;
   border-bottom: 1px solid var(--gray-border-color);
 }
@@ -154,7 +153,7 @@ body {
 }
 .hero__btn {
   width: 216px;
-  height: 50px;
+  padding: 10px 32px;
 
   font-family: "Roboto";
   font-weight: 700;
@@ -225,7 +224,6 @@ body {
 }
 .we-working__item-img {
   width: 370px;
-  height: 294px;
 }
 
 /*  Наша команда  */
@@ -245,7 +243,7 @@ body {
 }
 .our-team__item {
   width: 270px;
-  height: 368px;
+  padding-bottom: 30px;
 
   line-height: 1.18;
   text-align: center;
@@ -262,7 +260,6 @@ body {
 .our-team__item-img {
   display: block;
   width: 270px;
-  height: 260px;
 }
 .our-team__item-title {
   font-family: "Roboto";
@@ -360,7 +357,6 @@ body {
 }
 .filter-list__item {
   width: 370px;
-  height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
   background-color: var(--primary-white-color);
@@ -374,7 +370,6 @@ body {
 }
 .filter-list__item-img {
   width: 370px;
-  height: 294px;
 }
 .filter-list__item-title {
   margin: 20px 24px 4px 24px;
