@@ -283,11 +283,13 @@ body {
 
 /* Footer */
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: var(--dark-bg-color);
 }
 .footer-logo {
+  display: block;
+  margin-bottom: 20px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -300,14 +302,26 @@ body {
 }
 
 .footer-contacts-list__link {
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
   color: var(--primary-white-color);
 }
+.footer-contacts-list__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer-contacts-list__link:hover,
 .footer-contacts-list__link:focus {
   color: var(--button-hover-color);
