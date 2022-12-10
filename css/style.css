@@ -81,9 +81,11 @@ body {
 .header-logo span {
   color: var(--button-hover-color);
 }
+.nav {
+  margin-right: 344px;
+}
 .nav__list {
   display: flex;
-  margin-right: 344px;
 }
 .nav__item:not(:last-child) {
   margin-right: 50px;
