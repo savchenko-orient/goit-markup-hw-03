@@ -376,7 +376,7 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
   background-color: var(--primary-white-color);
-  border-bottom: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 }
 .filter-list__item:nth-child(3n) {
   margin-right: 0;
